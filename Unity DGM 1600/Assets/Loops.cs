@@ -6,7 +6,9 @@ public class Loops : MonoBehaviour
 
 	//While Loop 
 
-	int ShotsMade = 4;
+	public int ShotsMade = 4;
+
+	private VariableFunction FarFunc;
 
 	void Start()
 	{
@@ -16,14 +18,13 @@ public class Loops : MonoBehaviour
 		foreachlooptest ();
 	}
 
-	void whilelooptest()
+	 void whilelooptest()
 	{
 		while (ShotsMade > 0)
 		{
 			Debug.Log ("You've Made a Shot");
 			ShotsMade--;
 		}
-
 	}
 
 

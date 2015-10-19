@@ -11,18 +11,19 @@ public class IfStatements : MonoBehaviour
 	{ 
 		if (DenverBroncos < KansasChiefs)
 		{	
-			Debug.Log ("loss");
+			Debug.Log ("Denver loses");
 
 		} else if (DenverBroncos > KansasChiefs)
 
 		{
-			Debug.Log ("Win!");
+			Debug.Log ("Denver Wins!");
 		} 
 
 		else
 		{
-			Debug.Log ("Tie");
+			Debug.Log ("Tie Game");
 		}
 	}
 
 }
+	

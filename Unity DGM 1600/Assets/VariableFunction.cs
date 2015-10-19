@@ -3,7 +3,7 @@ using System.Collections;
 
 public class VariableFunction : MonoBehaviour 
 {
-	int myInt = 5;
+	 public int myInt = 5;
 
 		void Start()
 	{
@@ -11,7 +11,7 @@ public class VariableFunction : MonoBehaviour
 		Debug.Log (myInt);
 	}
 
-	int MultiplyByTwo (int number)
+	public int MultiplyByTwo (int number)
 
 	{
 		int ret;

@@ -41,9 +41,13 @@ public class ClassesandDataTypes : MonoBehaviour
 	{
 		Debug.Log(AFCstandings);
 
+		//this is a value type, the int num2 is changed to 10 and only affectss that integer.
+
 		int num1 = 5;
 		int num2 = num1;
 		num2 = 10;
+
+		//afc2.broncos is equalto 5, because it is a reference type it makes a copy and it changes 
 
 		AFCwest afc2 = AFCstandings;
 		afc2.Broncos = 5;
