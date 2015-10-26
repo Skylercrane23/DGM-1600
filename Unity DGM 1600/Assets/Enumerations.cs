@@ -18,7 +18,9 @@ public class Enumerations : MonoBehavior
 	FootballPlayer reversefootballplayer (FootballPlayer foot)
 	{
 		if(foot == FootballPlayer.Player1)
-			foot= FootballPlayer.Player2;
+			foot = FootballPlayer.Player2;
+		else if(foot ==	FootballPlayer.Player2)
+			foot = FootballPlayer.Player1;
 		
 		return foot;		
 	}
